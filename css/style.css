@@ -1,0 +1,177 @@
+/* font-family: 'Lato', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+width: 80%;
+
+margin: auto;
+
+padding: 30px 0;
+
+display: flex;
+
+justify-content: space-between;
+}
+.logo{
+
+width: 20%;
+font-family: 'Lato', sans-serif;
+}
+nav{
+    
+width: 40%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+
+}
+nav ul li a{
+
+text-decoration: none;
+
+font-size: 14px;
+
+color: #2d3950;
+
+font-weight: 700;
+
+font-family: 'Lato', sans-serif;
+}
+ .banner{
+     background-image: url(../images/StrictBanner.png);
+     min-height: 600px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+
+ .banner-content{
+
+width: 30%;
+
+text-align: center;
+
+margin: auto;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+}
+ .banner-content h1{
+     
+font-size: 60px;
+     
+text-transform: uppercase;
+     
+color: #fff;
+}
+.banner-content span{
+     
+display: inline-block;
+     
+height: 2px;
+     
+width: 100%;
+     
+background-color: #15a4fa;
+}
+.banner-content p{
+     
+font-size: 12px;
+     
+color: #fff;
+     
+margin: 15px 0;
+}
+.banner-content button{
+     
+background: none;
+     
+border: none;
+     
+color: #fff;
+     
+border: 1px solid #15a4fa;
+     
+padding: 10px 15px;
+     
+border-radius: 5px;
+     
+margin-top: 15px;
+
+outline: none;
+transition: .4s all ease-in-out;
+}
+.banner-content button:hover{
+    background-color: #15a4fa;
+}
+.icon{  
+position: absolute;
+    
+left: 50%;
+    
+top: 80%;
+    
+transform: translate(-50%, -80%);
+    
+font-size: 25px;
+    
+color: #fff;
+animation: up-down 1s linear infinite;
+animation-direction: alternate;
+}
+@keyframes up-down{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 85%;
+    }
+}
+
+.feature-cntent{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.feature-cntent h1{
+
+font-size: 30px;
+
+font-weight: 400;
+
+color: #2d3950;
+}
+.feature-cntent p{
+    
+font-size: 16px;
+    
+font-weight: 400;
+    
+color: #999999;
+    
+line-height: 1.5;
+    
+letter-spacing: .5px;
+    
+padding: 15px 0;
+}
